@@ -1,11 +1,12 @@
 [![arXiv Badge](https://img.shields.io/badge/arXiv-2411.00154-B31B1B)](https://arxiv.org/abs/2411.00154)
-[![Hugging Face Badge](https://img.shields.io/badge/Hugging%20Face-data-FFAE10)](https://huggingface.co/collections/haritzpuerto/the-pile-669689e96e4674605746ec6f)
+[![Hugging Face Badge](https://img.shields.io/badge/Hugging%20Face-data-FFAE10)](https://huggingface.co/collections/parameterlab/scaling-mia-data-and-results-67a0d354a6398cfba7feed00)
+[![Hugging Face Badge](https://img.shields.io/badge/Hugging%20Face-results-FFAE10)](https://huggingface.co/datasets/parameterlab/scaling_mia_results)
 
 
 ![scaling up mia description](./assets/logos.png)
 
 
-This repository includes the code to compute the membership inference attacks (MIA) scores and their aggregation using statistical methods to scale up MIA across the text data spectrum as described in our 2024 arXiv paper "Scaling Up Membership Inference: When and How Attacks Succeed on Large Language Models." The precomputed MIA scores and all the results shown in the tables and figures of the paper are in the folder `results.`
+This repository includes the code to compute the membership inference attacks (MIA) scores and their aggregation using statistical methods to scale up MIA across the text data spectrum as described in our 2025 NAACL Findings paper "Scaling Up Membership Inference: When and How Attacks Succeed on Large Language Models." The precomputed MIA scores and all the results shown in the tables and figures of the paper are in the folder `results.`
 
 
 
