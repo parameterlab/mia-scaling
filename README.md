@@ -95,14 +95,25 @@ This script will run over all model sizes, datasets, and paragraph sizes and wil
 If you find our work useful, please consider citing it using the following citation:
 
 ```
-@misc{puerto2024scalingmembershipinferenceattacks,
-      title={Scaling Up Membership Inference: When and How Attacks Succeed on Large Language Models}, 
-      author={Haritz Puerto and Martin Gubri and Sangdoo Yun and Seong Joon Oh},
-      year={2024},
-      eprint={2411.00154},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2411.00154}, 
+@inproceedings{puerto-etal-2025-scaling,
+    title = "Scaling Up Membership Inference: When and How Attacks Succeed on Large Language Models",
+    author = "Puerto, Haritz  and
+      Gubri, Martin  and
+      Yun, Sangdoo  and
+      Oh, Seong Joon",
+    editor = "Chiruzzo, Luis  and
+      Ritter, Alan  and
+      Wang, Lu",
+    booktitle = "Findings of the Association for Computational Linguistics: NAACL 2025",
+    month = apr,
+    year = "2025",
+    address = "Albuquerque, New Mexico",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.findings-naacl.234/",
+    doi = "10.18653/v1/2025.findings-naacl.234",
+    pages = "4165--4182",
+    ISBN = "979-8-89176-195-7",
+    abstract = "Membership inference attacks (MIA) attempt to verify the membership of a given data sample in the training set for a model. MIA has become relevant in recent years, following the rapid development of large language models (LLM). Many are concerned about the usage of copyrighted materials for training them and call for methods for detecting such usage. However, recent research has largely concluded that current MIA methods do not work on LLMs. Even when they seem to work, it is usually because of the ill-designed experimental setup where other shortcut features enable ``cheating.'' In this work, we argue that MIA still works on LLMs, but only when multiple documents are presented for testing. We construct new benchmarks that measure the MIA performances at a continuous scale of data samples, from sentences (n-grams) to a collection of documents (multiple chunks of tokens). To validate the efficacy of current MIA approaches at greater scales, we adapt a recent work on Dataset Inference (DI) for the task of binary membership detection that aggregates paragraph-level MIA features to enable document- and dataset-level MIA. This baseline achieves the first successful MIA on pre-trained and fine-tuned LLMs."
 }
 ```
 
