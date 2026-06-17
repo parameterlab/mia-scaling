@@ -7,4 +7,4 @@ pandas==1.5.2
 scikit-learn
 scipy==1.6.3
 transformers @ git+https://github.com/huggingface/transformers@aec1ca3a588bc6c65f7886e3d3eaa74901a6356f
-torch==1.14.0
+torch==1.13.0
